@@ -23,6 +23,7 @@ i {
   font-size: 3rem;
   color: #1e8cfa;
 }
+
 nav {
   background: #f6f5f2;
   box-shadow: 0 5px 15px #634b01;
@@ -46,10 +47,12 @@ nav {
   height: auto;
   display: flex;
 }
+
 ul {
   list-style-type: none;
   font-family: sans-serif;
 }
+
 a {
   text-decoration: none;
 }
