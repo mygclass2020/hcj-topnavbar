@@ -6,13 +6,11 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  justify-content: center;
-  overflow: hidden;
   margin: 0;
+  padding: 0;
+  height: 100vh;
+  line-height: 2.2;
+  font-size: 0.875rem;
 }
 
 h1 {
@@ -22,7 +20,67 @@ h1 {
 }
 
 i {
-  font-size: 5rem;
-  margin-bottom: 1rem;
-  color: #49243e;
+  font-size: 3rem;
+  color: #1e8cfa;
+}
+nav {
+  background: #f6f5f2;
+  box-shadow: 0 5px 15px #634b01;
+}
+
+.nav-main {
+  max-width: 95%;
+  margin: 0 0.2rem 0 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  height: auto;
+  display: flex;
+}
+ul {
+  list-style-type: none;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.menu a {
+  color: #074173;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  display: block;
+  padding: 0;
+  margin: 0 0.5rem;
+  transition: all 0.3s linear;
+}
+
+.menu a:hover {
+  background: #074173;
+  color: #9ed1f5;
+}
+
+.welcome-msg {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+banner-div {
+  margin-top: 0.7rem;
+}
+
+#banner1 {
+  height: 400px;
+  width: 100%;
 }
