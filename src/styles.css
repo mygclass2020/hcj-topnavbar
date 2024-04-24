@@ -16,17 +16,17 @@ body {
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #1c1678;
+  color: #a56113;
 }
 
 i {
   font-size: 3rem;
-  color: #1e8cfa;
+  color: #777d83;
 }
 
 nav {
-  background: #f6f5f2;
-  box-shadow: 0 5px 15px #634b01;
+  background: #202020;
+  box-shadow: 0 5px 15px grey;
 }
 
 .nav-main {
@@ -58,8 +58,8 @@ a {
 }
 
 .menu a {
-  color: #074173;
-  font-weight: bolder;
+  color: #f2f7fc;
+  /* font-weight: bolder; */
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
   display: block;
@@ -69,8 +69,8 @@ a {
 }
 
 .menu a:hover {
-  background: #074173;
-  color: #9ed1f5;
+  background: #ffffff;
+  color: #020202;
 }
 
 .welcome-msg {
@@ -86,4 +86,13 @@ a {
 #banner1 {
   height: 400px;
   width: 100%;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100% ;
+  background-color: rgb(226, 193, 101);
+  color: rgb(107, 59, 4);
+  font-family: Arial, Helvetica, sans-serif;
 }
